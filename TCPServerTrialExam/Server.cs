@@ -71,8 +71,6 @@ namespace TCPServerTrialExam
                 BoxCalLength length = JsonConvert.DeserializeObject<BoxCalLength>(strFromClient);
                 Console.WriteLine($"From Client as box length: {length}");
 
-                //Car car = JsonConvert.DeserializeObject<Car>(strFromClient);
-                //Console.WriteLine($"From Client as car obj : {car}");
 
 
             }
