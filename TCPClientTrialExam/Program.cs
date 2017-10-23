@@ -4,17 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TCPServerTrialExam
+namespace TCPClientTrialExam
 {
     class Program
     {
         private const int port = 9999;
         static void Main(string[] args)
         {
-                Server server = new Server(port);
-                server.StartServer();
+           
+                Client client = new Client(port);
+                client.StartClient();
 
                 Console.ReadLine();
+            
         }
     }
 }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9ABFF3CA-EFF4-46CE-8916-1A595D5C5ACE}</ProjectGuid>
+    <ProjectGuid>{E606B277-5369-479E-B146-BAC0CB564DAF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TCPServerTrialExam</RootNamespace>
-    <AssemblyName>TCPServerTrialExam</AssemblyName>
+    <RootNamespace>TCPClientTrialExam</RootNamespace>
+    <AssemblyName>TCPClientTrialExam</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,9 +45,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Client.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Server.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

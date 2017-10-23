@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPServerTrialExam", "TCPServerTrialExam\TCPServerTrialExam.csproj", "{9ABFF3CA-EFF4-46CE-8916-1A595D5C5ACE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPClientTrialExam", "TCPClientTrialExam\TCPClientTrialExam.csproj", "{E606B277-5369-479E-B146-BAC0CB564DAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxCalLib", "BoxCalLib\BoxCalLib.csproj", "{187AD263-1091-4167-AE29-5530B19320BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{9ABFF3CA-EFF4-46CE-8916-1A595D5C5ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9ABFF3CA-EFF4-46CE-8916-1A595D5C5ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9ABFF3CA-EFF4-46CE-8916-1A595D5C5ACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E606B277-5369-479E-B146-BAC0CB564DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E606B277-5369-479E-B146-BAC0CB564DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E606B277-5369-479E-B146-BAC0CB564DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E606B277-5369-479E-B146-BAC0CB564DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{187AD263-1091-4167-AE29-5530B19320BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{187AD263-1091-4167-AE29-5530B19320BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{187AD263-1091-4167-AE29-5530B19320BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{187AD263-1091-4167-AE29-5530B19320BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
