@@ -55,6 +55,8 @@ namespace TCPServerTrialExam
             }
         }
 
+     
+
         private void DoClient(TcpClient socket)
         {
             using (NetworkStream stream = socket.GetStream())
